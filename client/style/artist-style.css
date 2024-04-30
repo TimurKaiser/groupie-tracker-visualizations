@@ -1,0 +1,81 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(3, 59, 113);
+  background: radial-gradient(
+    circle,
+    rgba(3, 59, 113, 1) 0%,
+    rgba(4, 34, 62, 1) 100%
+  );
+}
+
+/* Resetting default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Setting background color and font styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Styling the container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the heading */
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+/* Styling the artist image */
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling the creation date and first album */
+p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Styling the members, locations, and concert dates */
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Styling hyperlinks */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
